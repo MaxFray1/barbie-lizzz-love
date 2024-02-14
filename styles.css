@@ -1,0 +1,240 @@
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+
+h1 {
+  width: 100%;
+  text-align: center;
+  font-family: 'Barbie', sans-serif;
+  font-size: 150px;
+  color: #FFA3F8;
+  margin: 0;
+  padding: 20px 0 0;
+  line-height: 90%;
+  text-shadow: 5px 5px white;
+  border: 8px double;
+  border-radius: 15px;
+}
+  
+body {
+  font-size: 12px;
+  background: #fe529e;
+}
+
+main {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+section {
+  margin-top: 40px;
+  width: 100%;
+}
+
+.text {
+  display: inline-block;
+  width: 100%;
+  color: #f0d1e0;
+  font-size: 12px;
+  font-weight: 600;
+  font-family: sans-serif;
+  line-height: 150%;
+}
+
+@media (min-width: 480px) {
+  .text {
+    font-size: 18px;
+  }
+}
+
+
+/* --------------------------- */
+
+.section1 {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.title2 {
+  width: 100%;
+  margin-block: 0;
+  display: inline-block;
+  color: #ffa3f8;
+  font-family: 'Barbie', sans-serif;
+  font-size: 48px;
+  font-weight: 600;
+  letter-spacing: 0.1;
+}
+
+.box_liz {
+  padding: 25px;
+  max-width: 100%;
+  max-height: 70dvh;
+}
+
+@media (min-width: 480px) {
+  .box_liz {
+    max-height: 85dvh;
+  }
+}
+
+@media (min-width: 780px) {
+  .section1__text_wrap {
+    /* display: block; */
+    max-width: 60%;
+  }
+  /* .section1_text, .section1_title {
+    width: 100%;
+    display: block;
+  } */
+}
+
+
+/* ---------------------- */
+
+.section2 {
+  width: 100%;
+}
+
+.section2__images-wrap {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 20px;
+  row-gap: 10px;
+}
+
+.box_cooking {
+  max-width: 90%;
+  border-radius: 10px;
+}
+
+.box_travel {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.box_cat {
+  width: 100%;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  background-image: url(/images/barbie_back2.png);
+  background-color: #e8c4d5;
+  background-size: contain;
+  background-repeat: repeat;
+}
+
+.cat_image {
+  width: 100%;
+}
+
+@media (min-width: 480px) {
+  .section2__images-wrap {
+    display: flex;
+  }
+
+  .box_travel, .box_cooking {
+    width: 30%;
+  }
+
+  .box_cat {
+    width: 40%;
+    display: flex;
+    align-items: center;
+  }
+}
+
+
+/* ---------------------- */
+
+.section3 {
+  width: 100%;
+  background-color: #e8c4d5;
+  background-image: url(/images/barbie_back2.png);
+  background-size: contain;
+  background-repeat: repeat;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.liz_cooking1 {
+  width: 100%;
+}
+
+
+/* -------------------- */
+
+.section4 {
+  height: 400px;
+  background-image: url(/images/city_back.jpg);
+  background-size: cover;
+  background-position-x: -60px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.section4_backdrop {
+  height: 100%;
+  backdrop-filter: blur(3px);
+}
+
+.liz_travel2 {
+  height: 100%;
+}
+
+/* ------------------------ */
+
+
+.section5 {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.misha {
+  max-width: 75%;
+  border-radius: 10px;
+  padding: 10px;
+  border: 5px dotted pink;
+}
+
+@media (min-width: 480px) {
+  .section5 {
+    flex-wrap: nowrap;
+    align-items: center;
+    column-gap: 10px;
+  }
+
+  .misha {
+    max-width: 50%;
+  }
+}
+
+
+div#wrapper {
+  background-image: url('/images/snowflake4.png');
+  -webkit-animation: snow 60s linear infinite;
+  animation: snow 60s linear infinite;
+} 
+
+/* @keyframes snow {
+  0% {background-position: 500px 1000px, 400px 400px, 300px 300px;}
+  100% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+}
+
+@-webkit-keyframes snow {
+  0% {background-position: 500px 1000px, 400px 400px, 300px 300px;}
+  100% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+} */
+
+@keyframes snow {
+  0% {background-position: 500px 1000px, 400px 400px;}
+  100% {background-position: 0px 0px, 0px 0px;}
+}
+
+@-webkit-keyframes snow {
+  0% {background-position: 500px 1000px, 400px 400px;}
+  100% {background-position: 0px 0px, 0px 0px;}
+}
