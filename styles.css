@@ -120,7 +120,7 @@ section {
   width: 100%;
   grid-column-start: 1;
   grid-column-end: 3;
-  background-image: url(/barbie-lizzz-love/images/barbie_back2.png);
+  background-image: url(/barbie-lizzz-love/images/barbie_back2.webp);
   background-color: #e8c4d5;
   background-size: contain;
   background-repeat: repeat;
@@ -152,7 +152,7 @@ section {
 .section3 {
   width: 100%;
   background-color: #e8c4d5;
-  background-image: url(/barbie-lizzz-love/images/barbie_back2.png);
+  background-image: url(/barbie-lizzz-love/images/barbie_back2.webp);
   background-size: contain;
   background-repeat: repeat;
   object-fit: cover;
@@ -168,7 +168,7 @@ section {
 
 .section4 {
   height: 400px;
-  background-image: url(/barbie-lizzz-love/images/city_back.jpg);
+  background-image: url(/barbie-lizzz-love/images/city_back.webp);
   background-size: cover;
   background-position-x: -60px;
   object-fit: cover;
@@ -214,7 +214,7 @@ section {
 
 
 div#wrapper {
-  background-image: url('/barbie-lizzz-love/images/snowflake4.png');
+  background-image: url('/barbie-lizzz-love/images/snowflake4.webp');
   -webkit-animation: snow 60s linear infinite;
   animation: snow 60s linear infinite;
 } 
